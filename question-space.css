@@ -21,6 +21,18 @@
 .notes-mode-tab.active { background: var(--ink); color: white; }
 .notes-mode-panel[hidden] { display: none; }
 
+.question-space .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .question-space {
   display: grid;
   grid-template-columns: minmax(360px, 1.05fr) minmax(0, .95fr);
