@@ -125,6 +125,21 @@ h1 { margin: 0 0 1.35rem; font-family: var(--serif); font-size: clamp(2.8rem, 5.
 .project-media { width: min(430px, 100%); margin: 1.35rem 0 0; }
 .project-media img { display: block; width: 100%; height: auto; border: 1px solid var(--ink); background: white; }
 .project-media figcaption { margin-top: .55rem; color: var(--muted); font-family: var(--mono); font-size: .68rem; }
+.project-visuals { margin-top: 1.6rem; display: grid; gap: 2.4rem; }
+.visual-explainer { padding-top: 1.3rem; border-top: 1px solid var(--line); }
+.visual-explainer h4 { margin: 0 0 .55rem; font-family: var(--serif); font-size: 1.35rem; font-weight: 500; line-height: 1.15; }
+.visual-explainer > p, .visual-explainer > div > p { margin: 0 0 1rem; }
+.visual-explainer-network { display: grid; grid-template-columns: minmax(0, .9fr) minmax(230px, 1.1fr); gap: 1.3rem; align-items: start; }
+.visual-explainer-network .project-media { width: 100%; margin: 0; }
+.signal-comparison { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
+.signal-comparison figure { margin: 0; border: 1px solid var(--ink); background: white; }
+.signal-comparison figcaption { padding: .6rem .75rem; border-bottom: 1px solid var(--line); font-family: var(--mono); font-size: .7rem; letter-spacing: .05em; text-transform: uppercase; }
+.signal-crop { background-size: 100% auto; background-repeat: no-repeat; background-color: white; }
+.signal-crop-ring { aspect-ratio: 1.3; }
+.signal-crop-branch { aspect-ratio: .82; }
+.signal-crop-top { background-position: center top; }
+.signal-crop-bottom { background-position: center bottom; }
+@media (max-width: 620px) { .visual-explainer-network, .signal-comparison { grid-template-columns: 1fr; } }
 
 .notes-section { --active: var(--orange); }
 .note-browser { display: grid; grid-template-columns: minmax(360px,.9fr) minmax(0,1.1fr); border: 1px solid var(--ink); min-height: 560px; background: rgba(247,247,242,.78); }
