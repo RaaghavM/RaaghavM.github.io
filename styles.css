@@ -68,6 +68,22 @@ h1 { margin: 0 0 1.35rem; font-family: var(--serif); font-size: clamp(2.8rem, 5.
 .now-line { margin-top: 2.6rem; padding-top: 1rem; border-top: 1px solid var(--line); display: grid; grid-template-columns: 60px 1fr; gap: 1rem; font-size: .9rem; }
 .now-line span { font-family: var(--mono); color: var(--blue); }
 .now-line p { margin: 0; }
+.why-section { padding: 3.5rem 0 5rem; border-top: 1px solid var(--ink); }
+.why-tabs { display: flex; flex-wrap: wrap; gap: .6rem; margin-bottom: 1rem; }
+.why-tab { border: 1px solid var(--ink); border-radius: 999px; padding: .62rem 1rem; background: transparent; color: var(--ink); font-family: var(--mono); font-size: .76rem; cursor: pointer; transition: transform .2s, background .2s, color .2s; }
+.why-tab:hover { transform: translateY(-2px); }
+.why-tab[data-why="brains"].active { background: var(--blue); border-color: var(--blue); color: white; }
+.why-tab[data-why="classrooms"].active { background: var(--orange); border-color: var(--orange); color: white; }
+.why-tab[data-why="markets"].active { background: var(--yellow); border-color: #b59100; color: var(--ink); }
+.why-panel { min-height: 205px; display: flex; align-items: center; border: 1px solid var(--ink); padding: clamp(1.6rem, 4vw, 3.4rem); background: rgba(247,247,242,.78); }
+.why-content { width: min(900px, 100%); padding-left: 1.35rem; animation: why-reveal .25s ease; }
+.why-content[data-why="brains"] { border-left: 4px solid var(--blue); }
+.why-content[data-why="classrooms"] { border-left: 4px solid var(--orange); }
+.why-content[data-why="markets"] { border-left: 4px solid #b59100; }
+.why-content[hidden] { display: none; }
+.why-content p { margin: 0; max-width: 850px; color: #343944; font-family: var(--serif); font-size: clamp(1.18rem, 2vw, 1.55rem); line-height: 1.48; }
+@keyframes why-reveal { from { opacity: 0; transform: translateY(7px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-width: 620px) { .why-section { padding: 2.5rem 0 4rem; } .why-panel { min-height: 0; padding: 1.35rem; } .why-content { padding-left: 1rem; } }
 #footer-wander { align-self: flex-start; border: 0; border-bottom: 1px solid currentColor; padding: .2rem 0; background: transparent; font-family: var(--mono); font-size: .78rem; cursor: pointer; }
 
 .section { padding: 7rem 0; border-top: 1px solid var(--ink); }
