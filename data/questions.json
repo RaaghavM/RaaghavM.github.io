@@ -1,0 +1,1059 @@
+{
+  "dimensions": [
+    "brains",
+    "classrooms",
+    "markets"
+  ],
+  "questions": [
+    {
+      "id": "brains-01",
+      "question": "How does the brain represent uncertainty without carrying a full probability distribution?",
+      "region": "brains",
+      "weights": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "brains-02",
+      "question": "How can local synaptic learning rules produce coordinated behavior across an entire brain?",
+      "region": "brains",
+      "weights": [
+        0.94,
+        0.036,
+        0.024
+      ]
+    },
+    {
+      "id": "brains-03",
+      "question": "Why do biological brains learn useful representations from so few examples?",
+      "region": "brains",
+      "weights": [
+        0.92,
+        0.023,
+        0.057
+      ]
+    },
+    {
+      "id": "brains-04",
+      "question": "How does a neural system decide whether to act now or gather one more observation?",
+      "region": "brains",
+      "weights": [
+        0.9,
+        0.078,
+        0.022
+      ]
+    },
+    {
+      "id": "brains-05",
+      "question": "What computational role does sleep play in learning, abstraction, and forgetting?",
+      "region": "brains",
+      "weights": [
+        0.88,
+        0.057,
+        0.063
+      ]
+    },
+    {
+      "id": "brains-06",
+      "question": "How are memories reorganized as they move from recent experience to long-term knowledge?",
+      "region": "brains",
+      "weights": [
+        0.86,
+        0.024,
+        0.116
+      ]
+    },
+    {
+      "id": "brains-07",
+      "question": "How do neuromodulators switch the brain between exploration, exploitation, and rest?",
+      "region": "brains",
+      "weights": [
+        0.84,
+        0.107,
+        0.053
+      ]
+    },
+    {
+      "id": "brains-08",
+      "question": "How can recurrent neural circuits remain stable while still adapting to new environments?",
+      "region": "brains",
+      "weights": [
+        0.82,
+        0.065,
+        0.115
+      ]
+    },
+    {
+      "id": "brains-09",
+      "question": "What makes a neural representation compositional rather than merely associative?",
+      "region": "brains",
+      "weights": [
+        0.8,
+        0.171,
+        0.029
+      ]
+    },
+    {
+      "id": "brains-10",
+      "question": "How do developing brains acquire useful priors before they have much experience?",
+      "region": "brains",
+      "weights": [
+        0.78,
+        0.121,
+        0.099
+      ]
+    },
+    {
+      "id": "brains-11",
+      "question": "Which ecological constraints make efficient neural codes useful?",
+      "region": "brains",
+      "weights": [
+        0.76,
+        0.059,
+        0.181
+      ]
+    },
+    {
+      "id": "brains-12",
+      "question": "How are abstract goals translated into robust actions under noisy sensory input?",
+      "region": "brains",
+      "weights": [
+        0.74,
+        0.192,
+        0.068
+      ]
+    },
+    {
+      "id": "brains-13",
+      "question": "How does the brain distinguish genuinely new evidence from familiar noise?",
+      "region": "brains",
+      "weights": [
+        0.72,
+        0.121,
+        0.159
+      ]
+    },
+    {
+      "id": "brains-14",
+      "question": "What lets one neural system learn simultaneously across milliseconds, days, and years?",
+      "region": "brains",
+      "weights": [
+        0.7,
+        0.038,
+        0.262
+      ]
+    },
+    {
+      "id": "brains-15",
+      "question": "When does forgetting improve intelligence rather than diminish it?",
+      "region": "brains",
+      "weights": [
+        0.68,
+        0.199,
+        0.121
+      ]
+    },
+    {
+      "id": "classrooms-01",
+      "question": "What kinds of feedback produce durable learning rather than short-term correction?",
+      "region": "classrooms",
+      "weights": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "classrooms-02",
+      "question": "How can assessment reveal a student’s reasoning instead of only whether the final answer is right?",
+      "region": "classrooms",
+      "weights": [
+        0.036,
+        0.94,
+        0.024
+      ]
+    },
+    {
+      "id": "classrooms-03",
+      "question": "When does struggle become productive, and when does it simply become discouraging?",
+      "region": "classrooms",
+      "weights": [
+        0.023,
+        0.92,
+        0.057
+      ]
+    },
+    {
+      "id": "classrooms-04",
+      "question": "How should learning tools preserve student agency while still offering meaningful guidance?",
+      "region": "classrooms",
+      "weights": [
+        0.078,
+        0.9,
+        0.022
+      ]
+    },
+    {
+      "id": "classrooms-05",
+      "question": "What helps learners transfer an idea from one context to a genuinely different one?",
+      "region": "classrooms",
+      "weights": [
+        0.057,
+        0.88,
+        0.063
+      ]
+    },
+    {
+      "id": "classrooms-06",
+      "question": "How can teachers detect misconceptions early without constantly testing students?",
+      "region": "classrooms",
+      "weights": [
+        0.024,
+        0.86,
+        0.116
+      ]
+    },
+    {
+      "id": "classrooms-07",
+      "question": "How does explaining an idea to a peer change one’s own understanding?",
+      "region": "classrooms",
+      "weights": [
+        0.107,
+        0.84,
+        0.053
+      ]
+    },
+    {
+      "id": "classrooms-08",
+      "question": "What should mastery mean when tools can perform many component skills on demand?",
+      "region": "classrooms",
+      "weights": [
+        0.065,
+        0.82,
+        0.115
+      ]
+    },
+    {
+      "id": "classrooms-09",
+      "question": "How should curricula adapt when students arrive with very different prior knowledge?",
+      "region": "classrooms",
+      "weights": [
+        0.171,
+        0.8,
+        0.029
+      ]
+    },
+    {
+      "id": "classrooms-10",
+      "question": "Which classroom routines best develop metacognition and intellectual independence?",
+      "region": "classrooms",
+      "weights": [
+        0.121,
+        0.78,
+        0.099
+      ]
+    },
+    {
+      "id": "classrooms-11",
+      "question": "How can multilingual instruction treat language difference as an asset rather than a deficit?",
+      "region": "classrooms",
+      "weights": [
+        0.059,
+        0.76,
+        0.181
+      ]
+    },
+    {
+      "id": "classrooms-12",
+      "question": "What makes learners appropriately trust—or challenge—feedback from an AI system?",
+      "region": "classrooms",
+      "weights": [
+        0.192,
+        0.74,
+        0.068
+      ]
+    },
+    {
+      "id": "classrooms-13",
+      "question": "How can schools recognize curiosity and growth without turning them into hollow metrics?",
+      "region": "classrooms",
+      "weights": [
+        0.121,
+        0.72,
+        0.159
+      ]
+    },
+    {
+      "id": "classrooms-14",
+      "question": "When should an AI tutor answer a question, ask another question, or remain silent?",
+      "region": "classrooms",
+      "weights": [
+        0.038,
+        0.7,
+        0.262
+      ]
+    },
+    {
+      "id": "classrooms-15",
+      "question": "How can teacher expertise scale without standardizing away professional judgment?",
+      "region": "classrooms",
+      "weights": [
+        0.199,
+        0.68,
+        0.121
+      ]
+    },
+    {
+      "id": "markets-01",
+      "question": "How should scarce expert attention be allocated when ability to pay and need point in different directions?",
+      "region": "markets",
+      "weights": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "markets-02",
+      "question": "What market designs make truthful information more rewarding than persuasive misinformation?",
+      "region": "markets",
+      "weights": [
+        0.036,
+        0.024,
+        0.94
+      ]
+    },
+    {
+      "id": "markets-03",
+      "question": "How can platforms internalize the social costs created by engagement-maximizing algorithms?",
+      "region": "markets",
+      "weights": [
+        0.023,
+        0.057,
+        0.92
+      ]
+    },
+    {
+      "id": "markets-04",
+      "question": "Who should capture the value created when many people’s data trains one shared model?",
+      "region": "markets",
+      "weights": [
+        0.078,
+        0.022,
+        0.9
+      ]
+    },
+    {
+      "id": "markets-05",
+      "question": "How should scarce compute be allocated among private profit, public research, and social need?",
+      "region": "markets",
+      "weights": [
+        0.057,
+        0.063,
+        0.88
+      ]
+    },
+    {
+      "id": "markets-06",
+      "question": "When can prediction markets aggregate dispersed knowledge better than committees or polls?",
+      "region": "markets",
+      "weights": [
+        0.024,
+        0.116,
+        0.86
+      ]
+    },
+    {
+      "id": "markets-07",
+      "question": "What makes a reputation system resistant to gaming, collusion, and inherited advantage?",
+      "region": "markets",
+      "weights": [
+        0.107,
+        0.053,
+        0.84
+      ]
+    },
+    {
+      "id": "markets-08",
+      "question": "When do network effects transform a useful platform into an extractive monopoly?",
+      "region": "markets",
+      "weights": [
+        0.065,
+        0.115,
+        0.82
+      ]
+    },
+    {
+      "id": "markets-09",
+      "question": "How should autonomous AI agents negotiate, contract, and bear responsibility for mistakes?",
+      "region": "markets",
+      "weights": [
+        0.171,
+        0.029,
+        0.8
+      ]
+    },
+    {
+      "id": "markets-10",
+      "question": "What mechanisms could prevent tacit collusion among pricing algorithms?",
+      "region": "markets",
+      "weights": [
+        0.121,
+        0.099,
+        0.78
+      ]
+    },
+    {
+      "id": "markets-11",
+      "question": "How can public goods be funded when their benefits are diffuse and difficult to measure?",
+      "region": "markets",
+      "weights": [
+        0.059,
+        0.181,
+        0.76
+      ]
+    },
+    {
+      "id": "markets-12",
+      "question": "When does personalized pricing improve access, and when does it become exploitation?",
+      "region": "markets",
+      "weights": [
+        0.192,
+        0.068,
+        0.74
+      ]
+    },
+    {
+      "id": "markets-13",
+      "question": "How should labor markets signal skill when AI changes which credentials remain informative?",
+      "region": "markets",
+      "weights": [
+        0.121,
+        0.159,
+        0.72
+      ]
+    },
+    {
+      "id": "markets-14",
+      "question": "What policies preserve meaningful competition when frontier models require enormous fixed costs?",
+      "region": "markets",
+      "weights": [
+        0.038,
+        0.262,
+        0.7
+      ]
+    },
+    {
+      "id": "markets-15",
+      "question": "How can matching systems balance efficiency, fairness, and freedom of choice?",
+      "region": "markets",
+      "weights": [
+        0.199,
+        0.121,
+        0.68
+      ]
+    },
+    {
+      "id": "brains-classrooms-01",
+      "question": "Can models of memory consolidation determine when a learner should revisit an idea?",
+      "region": "brains-classrooms",
+      "weights": [
+        0.509,
+        0.405,
+        0.086
+      ]
+    },
+    {
+      "id": "brains-classrooms-02",
+      "question": "How should teaching adapt to neural variability without reducing students to cognitive profiles?",
+      "region": "brains-classrooms",
+      "weights": [
+        0.316,
+        0.531,
+        0.153
+      ]
+    },
+    {
+      "id": "brains-classrooms-03",
+      "question": "Can cognitive-load theory help AI explanations reveal structure without removing productive effort?",
+      "region": "brains-classrooms",
+      "weights": [
+        0.631,
+        0.311,
+        0.058
+      ]
+    },
+    {
+      "id": "brains-classrooms-04",
+      "question": "What observable signals distinguish curiosity from confusion, and how should a teacher respond?",
+      "region": "brains-classrooms",
+      "weights": [
+        0.426,
+        0.449,
+        0.125
+      ]
+    },
+    {
+      "id": "brains-classrooms-05",
+      "question": "How might sleep and circadian rhythms inform the design of school schedules?",
+      "region": "brains-classrooms",
+      "weights": [
+        0.294,
+        0.675,
+        0.031
+      ]
+    },
+    {
+      "id": "brains-classrooms-06",
+      "question": "Could lessons be sequenced to alternate acquisition, consolidation, and creative recombination?",
+      "region": "brains-classrooms",
+      "weights": [
+        0.541,
+        0.361,
+        0.098
+      ]
+    },
+    {
+      "id": "brains-classrooms-07",
+      "question": "When does embodied interaction produce concepts that screen-based learning cannot?",
+      "region": "brains-classrooms",
+      "weights": [
+        0.348,
+        0.488,
+        0.164
+      ]
+    },
+    {
+      "id": "brains-classrooms-08",
+      "question": "How can confidence judgments train students to calibrate what they know and do not know?",
+      "region": "brains-classrooms",
+      "weights": [
+        0.663,
+        0.267,
+        0.07
+      ]
+    },
+    {
+      "id": "brains-classrooms-09",
+      "question": "Does feedback work best when it coincides with a neural prediction error or after reflection?",
+      "region": "brains-classrooms",
+      "weights": [
+        0.458,
+        0.406,
+        0.136
+      ]
+    },
+    {
+      "id": "brains-classrooms-10",
+      "question": "How does the brain’s social-learning machinery change what students learn from peers?",
+      "region": "brains-classrooms",
+      "weights": [
+        0.332,
+        0.626,
+        0.042
+      ]
+    },
+    {
+      "id": "brains-classrooms-11",
+      "question": "How do bilingual learners organize concepts across languages, and what should instruction do differently?",
+      "region": "brains-classrooms",
+      "weights": [
+        0.573,
+        0.318,
+        0.109
+      ]
+    },
+    {
+      "id": "brains-classrooms-12",
+      "question": "Can attention be measured usefully in a classroom without becoming surveillance?",
+      "region": "brains-classrooms",
+      "weights": [
+        0.379,
+        0.445,
+        0.176
+      ]
+    },
+    {
+      "id": "brains-classrooms-13",
+      "question": "When should students retrieve an answer from memory, and when should they generate a new approach?",
+      "region": "brains-classrooms",
+      "weights": [
+        0.254,
+        0.664,
+        0.082
+      ]
+    },
+    {
+      "id": "brains-classrooms-14",
+      "question": "Could hippocampal replay inspire curricula that revisit ideas in unexpectedly connected contexts?",
+      "region": "brains-classrooms",
+      "weights": [
+        0.488,
+        0.364,
+        0.148
+      ]
+    },
+    {
+      "id": "brains-classrooms-15",
+      "question": "How should classrooms adapt when stress changes memory, attention, and willingness to explore?",
+      "region": "brains-classrooms",
+      "weights": [
+        0.369,
+        0.577,
+        0.054
+      ]
+    },
+    {
+      "id": "brains-markets-01",
+      "question": "Can neural computations of information value improve how economic agents decide what to learn next?",
+      "region": "brains-markets",
+      "weights": [
+        0.509,
+        0.086,
+        0.405
+      ]
+    },
+    {
+      "id": "brains-markets-02",
+      "question": "What changes when attention is modeled as both a cognitive bottleneck and a scarce economic resource?",
+      "region": "brains-markets",
+      "weights": [
+        0.316,
+        0.153,
+        0.531
+      ]
+    },
+    {
+      "id": "brains-markets-03",
+      "question": "How should markets be designed for people whose rationality is bounded, adaptive, and context-dependent?",
+      "region": "brains-markets",
+      "weights": [
+        0.631,
+        0.059,
+        0.31
+      ]
+    },
+    {
+      "id": "brains-markets-04",
+      "question": "Are neuromodulatory control systems a useful model for dynamically pricing exploration and risk?",
+      "region": "brains-markets",
+      "weights": [
+        0.426,
+        0.125,
+        0.449
+      ]
+    },
+    {
+      "id": "brains-markets-05",
+      "question": "What can reward-prediction errors teach us about bubbles, momentum, and changing expectations?",
+      "region": "brains-markets",
+      "weights": [
+        0.294,
+        0.031,
+        0.675
+      ]
+    },
+    {
+      "id": "brains-markets-06",
+      "question": "How does cognitive scarcity alter the welfare consequences of complex choices?",
+      "region": "brains-markets",
+      "weights": [
+        0.541,
+        0.098,
+        0.361
+      ]
+    },
+    {
+      "id": "brains-markets-07",
+      "question": "Can exploration–exploitation algorithms account for the social value of trying neglected options?",
+      "region": "brains-markets",
+      "weights": [
+        0.348,
+        0.164,
+        0.488
+      ]
+    },
+    {
+      "id": "brains-markets-08",
+      "question": "How are preferences formed by experience, and when should markets treat them as endogenous?",
+      "region": "brains-markets",
+      "weights": [
+        0.663,
+        0.07,
+        0.267
+      ]
+    },
+    {
+      "id": "brains-markets-09",
+      "question": "When do social-learning mechanisms turn individual signals into collective information cascades?",
+      "region": "brains-markets",
+      "weights": [
+        0.458,
+        0.136,
+        0.406
+      ]
+    },
+    {
+      "id": "brains-markets-10",
+      "question": "What neural mechanisms support trust, and how do institutions amplify or erode them?",
+      "region": "brains-markets",
+      "weights": [
+        0.332,
+        0.043,
+        0.625
+      ]
+    },
+    {
+      "id": "brains-markets-11",
+      "question": "How do metabolic and computational budgets shape decisions that look irrational from the outside?",
+      "region": "brains-markets",
+      "weights": [
+        0.573,
+        0.109,
+        0.318
+      ]
+    },
+    {
+      "id": "brains-markets-12",
+      "question": "How should engagement markets be governed when they can learn and exploit reward circuitry?",
+      "region": "brains-markets",
+      "weights": [
+        0.379,
+        0.175,
+        0.446
+      ]
+    },
+    {
+      "id": "brains-markets-13",
+      "question": "Under what conditions can many bounded minds produce reliable collective intelligence?",
+      "region": "brains-markets",
+      "weights": [
+        0.254,
+        0.082,
+        0.664
+      ]
+    },
+    {
+      "id": "brains-markets-14",
+      "question": "How should subjective uncertainty influence risk-sharing, insurance, and the price of information?",
+      "region": "brains-markets",
+      "weights": [
+        0.488,
+        0.148,
+        0.364
+      ]
+    },
+    {
+      "id": "brains-markets-15",
+      "question": "Can mechanism design work with biologically plausible learners rather than perfectly rational agents?",
+      "region": "brains-markets",
+      "weights": [
+        0.369,
+        0.054,
+        0.577
+      ]
+    },
+    {
+      "id": "classrooms-markets-01",
+      "question": "How should unanswered teacher questions be routed when expert attention is scarce?",
+      "region": "classrooms-markets",
+      "weights": [
+        0.086,
+        0.509,
+        0.405
+      ]
+    },
+    {
+      "id": "classrooms-markets-02",
+      "question": "What allocation rule would direct limited tutoring hours toward both need and likely benefit?",
+      "region": "classrooms-markets",
+      "weights": [
+        0.153,
+        0.316,
+        0.531
+      ]
+    },
+    {
+      "id": "classrooms-markets-03",
+      "question": "Which school-funding incentives improve learning without encouraging metric manipulation?",
+      "region": "classrooms-markets",
+      "weights": [
+        0.059,
+        0.631,
+        0.31
+      ]
+    },
+    {
+      "id": "classrooms-markets-04",
+      "question": "How will credentials signal knowledge when AI makes polished output cheap?",
+      "region": "classrooms-markets",
+      "weights": [
+        0.125,
+        0.426,
+        0.449
+      ]
+    },
+    {
+      "id": "classrooms-markets-05",
+      "question": "Could subscription-based AI tutors widen learning gaps even when the underlying model is widely available?",
+      "region": "classrooms-markets",
+      "weights": [
+        0.031,
+        0.294,
+        0.675
+      ]
+    },
+    {
+      "id": "classrooms-markets-06",
+      "question": "How should teacher labor change when planning, grading, and explanation can be partly automated?",
+      "region": "classrooms-markets",
+      "weights": [
+        0.098,
+        0.541,
+        0.361
+      ]
+    },
+    {
+      "id": "classrooms-markets-07",
+      "question": "What institutions can sustain open educational resources as durable public goods?",
+      "region": "classrooms-markets",
+      "weights": [
+        0.164,
+        0.348,
+        0.488
+      ]
+    },
+    {
+      "id": "classrooms-markets-08",
+      "question": "How can admissions matching respect student preferences without reproducing unequal information?",
+      "region": "classrooms-markets",
+      "weights": [
+        0.07,
+        0.663,
+        0.267
+      ]
+    },
+    {
+      "id": "classrooms-markets-09",
+      "question": "Could peer tutoring exchanges reward contribution without turning every act of help into a transaction?",
+      "region": "classrooms-markets",
+      "weights": [
+        0.136,
+        0.458,
+        0.406
+      ]
+    },
+    {
+      "id": "classrooms-markets-10",
+      "question": "When does outcomes-based education funding motivate improvement, and when does it invite gaming?",
+      "region": "classrooms-markets",
+      "weights": [
+        0.043,
+        0.332,
+        0.625
+      ]
+    },
+    {
+      "id": "classrooms-markets-11",
+      "question": "How should schools evaluate AI platforms when vendors know more than buyers about system quality?",
+      "region": "classrooms-markets",
+      "weights": [
+        0.109,
+        0.573,
+        0.318
+      ]
+    },
+    {
+      "id": "classrooms-markets-12",
+      "question": "Who should control the data produced through a student’s learning?",
+      "region": "classrooms-markets",
+      "weights": [
+        0.175,
+        0.379,
+        0.446
+      ]
+    },
+    {
+      "id": "classrooms-markets-13",
+      "question": "When do performance bonuses motivate teachers, and when do they crowd out professional purpose?",
+      "region": "classrooms-markets",
+      "weights": [
+        0.082,
+        0.254,
+        0.664
+      ]
+    },
+    {
+      "id": "classrooms-markets-14",
+      "question": "How can families make meaningful school choices when quality is uncertain and multidimensional?",
+      "region": "classrooms-markets",
+      "weights": [
+        0.148,
+        0.488,
+        0.364
+      ]
+    },
+    {
+      "id": "classrooms-markets-15",
+      "question": "What matching systems could bring scarce specialist expertise to rural and under-resourced classrooms?",
+      "region": "classrooms-markets",
+      "weights": [
+        0.054,
+        0.369,
+        0.577
+      ]
+    },
+    {
+      "id": "center-01",
+      "question": "How should an AI tutor allocate attention using uncertainty, learning science, and equity at the same time?",
+      "region": "center",
+      "weights": [
+        0.333,
+        0.333,
+        0.334
+      ]
+    },
+    {
+      "id": "center-02",
+      "question": "Can we measure learning well enough to personalize support without turning education into surveillance?",
+      "region": "center",
+      "weights": [
+        0.413,
+        0.293,
+        0.294
+      ]
+    },
+    {
+      "id": "center-03",
+      "question": "What institutions would help human–AI groups become collectively intelligent rather than collectively overconfident?",
+      "region": "center",
+      "weights": [
+        0.293,
+        0.413,
+        0.294
+      ]
+    },
+    {
+      "id": "center-04",
+      "question": "How can we design incentives that reward curiosity when its benefits are delayed and difficult to measure?",
+      "region": "center",
+      "weights": [
+        0.293,
+        0.293,
+        0.414
+      ]
+    },
+    {
+      "id": "center-05",
+      "question": "Whose goals should an adaptive learning system optimize: the student’s, the teacher’s, or society’s?",
+      "region": "center",
+      "weights": [
+        0.443,
+        0.253,
+        0.304
+      ]
+    },
+    {
+      "id": "center-06",
+      "question": "Could a market for expert feedback respect cognitive limits while remaining accessible to those with little money?",
+      "region": "center",
+      "weights": [
+        0.253,
+        0.443,
+        0.304
+      ]
+    },
+    {
+      "id": "center-07",
+      "question": "How can institutions learn from experience without forgetting the people poorly served by past decisions?",
+      "region": "center",
+      "weights": [
+        0.303,
+        0.253,
+        0.444
+      ]
+    },
+    {
+      "id": "center-08",
+      "question": "What would an economy look like if human attention—not money—were treated as the central scarce resource?",
+      "region": "center",
+      "weights": [
+        0.393,
+        0.363,
+        0.244
+      ]
+    },
+    {
+      "id": "center-09",
+      "question": "When personalized learning systems shape preferences, who is responsible for the preferences that emerge?",
+      "region": "center",
+      "weights": [
+        0.363,
+        0.243,
+        0.394
+      ]
+    },
+    {
+      "id": "center-10",
+      "question": "How will AI metacognition change education, hiring, and the value of knowing what one does not know?",
+      "region": "center",
+      "weights": [
+        0.243,
+        0.393,
+        0.364
+      ]
+    },
+    {
+      "id": "center-11",
+      "question": "How do feedback loops between algorithms, cognition, and opportunity create durable advantage or disadvantage?",
+      "region": "center",
+      "weights": [
+        0.463,
+        0.313,
+        0.224
+      ]
+    },
+    {
+      "id": "center-12",
+      "question": "How should AI assistance be rationed when compute, teacher time, and human attention are all limited?",
+      "region": "center",
+      "weights": [
+        0.223,
+        0.463,
+        0.314
+      ]
+    },
+    {
+      "id": "center-13",
+      "question": "What is the best way for intelligent systems and institutions to communicate uncertainty to people making decisions?",
+      "region": "center",
+      "weights": [
+        0.313,
+        0.223,
+        0.464
+      ]
+    },
+    {
+      "id": "center-14",
+      "question": "Can we build schools, models, and markets that revise their beliefs without losing their values?",
+      "region": "center",
+      "weights": [
+        0.403,
+        0.213,
+        0.384
+      ]
+    },
+    {
+      "id": "center-15",
+      "question": "How should long-term human development be valued when short-term engagement is easier to observe and monetize?",
+      "region": "center",
+      "weights": [
+        0.213,
+        0.383,
+        0.404
+      ]
+    }
+  ]
+}
