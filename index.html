@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231e42d6'/%3E%3Ccircle cx='20' cy='22' r='6' fill='%23ffe36d'/%3E%3Ccircle cx='43' cy='20' r='4' fill='%23f7f7f2'/%3E%3Ccircle cx='39' cy='44' r='7' fill='%23ff6b4a'/%3E%3Cpath d='M24 24 39 21M23 27l12 13' stroke='%23f7f7f2' stroke-width='3'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="./styles.css?v=20260922-mobile1">
+  <link rel="stylesheet" href="./styles.css?v=20260922-mediafix1">
   <link rel="stylesheet" href="./question-space.css">
   <script src="./app.js" defer></script>
   <script src="./question-space.js" defer></script>
@@ -175,7 +175,17 @@
               <a href="https://patents.google.com/patent/US11919159B1/en" target="_blank" rel="noopener">View the patent ↗</a>
               <div class="sense-media" aria-label="SENSE project media">
                 <figure>
-                  <img src="./assets/sense-cad.png" alt="CAD rendering of the SENSE robotic sign-language teaching glove." width="800" height="469" loading="lazy">
+                  <video
+      src="./assets/sense-cad-vid.mp4"
+      width="800"
+      height="469"
+      autoplay
+      loop
+      muted
+      playsinline
+      preload="metadata"
+      aria-label="Animated CAD rendering of the SENSE robotic sign-language teaching glove."
+    ></video>
                 </figure>
                 <figure>
                   <img src="./assets/sense-diagram.png" alt="Mechanical line diagram showing the SENSE glove, finger guides, and motor assemblies." width="1902" height="1152" loading="lazy">
