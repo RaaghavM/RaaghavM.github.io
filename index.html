@@ -83,6 +83,46 @@
             <p>Optimal-control and graph-kernel views of neuromorphic navigation, including why Gaussian-like place fields may be useful.</p>
             <div class="project-details" hidden>
               <p>This work develops Laplacian formulations of Endotaxis, proves convergence properties, and compares the method with successor representations.</p>
+              <div class="project-visuals">
+                <section class="visual-explainer visual-explainer-network">
+                  <div>
+                    <h4>How Endotaxis represents a map</h4>
+                    <p>Point-cell input encodes the agent’s current node. It feeds recurrent map cells whose connections store graph adjacency; the resulting goal signal can then be greedily increased to choose each next step.</p>
+                  </div>
+                  <figure class="project-media">
+                    <img src="./assets/endotaxis-network.png" alt="Diagram of point-cell inputs feeding recurrent map cells connected by graph-adjacency weights." width="838" height="948" loading="lazy">
+                    <figcaption>Point cells feed a recurrent map-cell layer whose weights encode graph adjacency.</figcaption>
+                  </figure>
+                </section>
+                <section class="visual-explainer">
+                  <h4>Goal signals on a ring</h4>
+                  <p>The Laplacian network produces a smooth goal gradient across the ring, while the adjacency network concentrates activity close to the goal. The broader gradient remains useful when activity is noisy.</p>
+                  <div class="signal-comparison" role="group" aria-label="Laplacian and adjacency goal signals on a ring graph">
+                    <figure>
+                      <figcaption>Laplacian (L)</figcaption>
+                      <div class="signal-crop signal-crop-ring signal-crop-top" style="background-image: url('./assets/ring-goal-signals.png')" role="img" aria-label="Laplacian goal signal distributed around a ring graph"></div>
+                    </figure>
+                    <figure>
+                      <figcaption>Adjacency (A)</figcaption>
+                      <div class="signal-crop signal-crop-ring signal-crop-bottom" style="background-image: url('./assets/ring-goal-signals.png')" role="img" aria-label="Adjacency goal signal localized near the goal on a ring graph"></div>
+                    </figure>
+                  </div>
+                </section>
+                <section class="visual-explainer">
+                  <h4>Goal signals on a branched graph</h4>
+                  <p>The Laplacian signal changes more continuously with graph distance. Greedy ascent therefore follows a direction that more closely approximates a shortest path than the localized adjacency signal.</p>
+                  <div class="signal-comparison" role="group" aria-label="Laplacian and adjacency goal signals on a branched graph">
+                    <figure>
+                      <figcaption>Laplacian (L)</figcaption>
+                      <div class="signal-crop signal-crop-branch signal-crop-top" style="background-image: url('./assets/branched-goal-signals.png')" role="img" aria-label="Laplacian goal signal following graph distance across a branched graph"></div>
+                    </figure>
+                    <figure>
+                      <figcaption>Adjacency (A)</figcaption>
+                      <div class="signal-crop signal-crop-branch signal-crop-bottom" style="background-image: url('./assets/branched-goal-signals.png')" role="img" aria-label="Adjacency goal signal localized on a branched graph"></div>
+                    </figure>
+                  </div>
+                </section>
+              </div>
             </div>
           </div>
           <div class="tag-stack"><span>brains</span><span>optimization</span></div>
