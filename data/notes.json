@@ -1,0 +1,55 @@
+{
+  "notes": [
+    {
+      "id": "observation-worth",
+      "title": "What is one more observation worth?",
+      "type": "Question · brains + markets",
+      "topics": ["brains", "markets"],
+      "body": "An animal can look again, a model can request more context, and a teacher can ask an expert. In each case, information has a cost. I’m interested in when the next observation changes the decision enough to be worth paying for.",
+      "from": "zebrafish hunting",
+      "toward": "expert attention"
+    },
+    {
+      "id": "place-fields",
+      "title": "Why might place fields be Gaussian?",
+      "type": "Question · brains",
+      "topics": ["brains"],
+      "body": "Gaussian tuning is often treated as an observed fact to reproduce. An optimal-control view asks the question in reverse: under what navigation problem would this response shape be useful?",
+      "from": "neuromorphic navigation",
+      "toward": "normative models"
+    },
+    {
+      "id": "queue-chatbot",
+      "title": "The queue behind the chatbot",
+      "type": "Note · learning + markets",
+      "topics": ["learning", "markets"],
+      "body": "When an educational assistant cannot answer, the problem does not disappear—it becomes a routing problem. Who receives the question, how long can it wait, and what counts as an equitable allocation of expertise?",
+      "from": "teacher interviews",
+      "toward": "network design"
+    },
+    {
+      "id": "arithmetic-algorithm",
+      "title": "Arithmetic as an algorithm",
+      "type": "Note · learning",
+      "topics": ["learning"],
+      "body": "A student who programs multi-digit addition has to make place value, carrying, and iteration explicit. The algorithm becomes an object they can inspect rather than a recipe they can only repeat.",
+      "from": "classroom pilots",
+      "toward": "constructionist learning"
+    },
+    {
+      "id": "sentence-distance",
+      "title": "A distance between sentences",
+      "type": "Question · brains + language",
+      "topics": ["brains", "language"],
+      "body": "If syntactic objects live in a compositional algebra, what would it mean for two of them to be near each other? Entropy gradients may offer one bridge from formal derivation to neural search.",
+      "from": "linguistic Merge",
+      "toward": "hippocampal search"
+    }
+  ],
+  "links": [
+    {"source": "observation-worth", "target": "place-fields"},
+    {"source": "observation-worth", "target": "queue-chatbot"},
+    {"source": "place-fields", "target": "sentence-distance"},
+    {"source": "queue-chatbot", "target": "arithmetic-algorithm"}
+  ]
+}
