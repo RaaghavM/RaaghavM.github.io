@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Raaghav Malik — projects and notes across computational intelligence, education, and economics.">
+  <meta name="theme-color" content="#f7f7f2">
+  <title>Raaghav Malik</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231e42d6'/%3E%3Ccircle cx='20' cy='22' r='6' fill='%23ffe36d'/%3E%3Ccircle cx='43' cy='20' r='4' fill='%23f7f7f2'/%3E%3Ccircle cx='39' cy='44' r='7' fill='%23ff6b4a'/%3E%3Cpath d='M24 24 39 21M23 27l12 13' stroke='%23f7f7f2' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Raaghav Malik, home">
+      <span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>Raaghav Malik</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#projects">Projects</a>
+      <a href="#notes">Notes</a>
+      <a href="#papers">Papers</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <h1>Brains, classrooms, and markets.</h1>
+        <p class="intro">I’m finishing a degree in computer science and economics at Caltech. My work moves between neural computation, learning tools, and the networks that allocate attention and information.</p>
+        <div class="now-line">
+          <span>Now</span>
+          <p>working on neuromorphic navigation and models of syntax in neural dynamics</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <p class="section-number">01</p>
+        <div>
+          <h2 id="projects-title">Selected work</h2>
+        </div>
+      </div>
+      <div class="project-filter" role="group" aria-label="Filter selected work">
+        <span>show</span>
+        <button class="filter-button active" type="button" data-thread="all" aria-pressed="true">all</button>
+        <button class="filter-button" type="button" data-thread="brains" aria-pressed="false"><span class="dot dot-blue"></span> intelligence</button>
+        <button class="filter-button" type="button" data-thread="learning" aria-pressed="false"><span class="dot dot-orange"></span> education</button>
+        <button class="filter-button" type="button" data-thread="markets" aria-pressed="false"><span class="dot dot-yellow"></span> economics</button>
+      </div>
+      <div class="project-list" id="project-list">
+        <article class="project" data-tags="brains markets" tabindex="0">
+          <div class="project-index">A</div>
+          <div class="project-main">
+            <p class="meta">Research · 2025</p>
+            <h3>Hunting under uncertainty</h3>
+            <p>Recurrent reinforcement-learning agents for asking how ecological and energetic constraints shape zebrafish hunting.</p>
+            <div class="project-details" hidden>
+              <p>The simulator models discrete bouts, biologically grounded sensing, and motor costs. The larger aim is a normative account of hunting as an energy–information trade-off.</p>
+              <a href="https://arxiv.org/abs/2510.03699" target="_blank" rel="noopener">Read the paper ↗</a>
+            </div>
+          </div>
+          <div class="tag-stack"><span>brains</span><span>information</span></div>
+          <button class="expand" type="button" aria-label="Show more about Hunting under uncertainty" aria-expanded="false">+</button>
+        </article>
+
+        <article class="project" data-tags="brains markets" tabindex="0">
+          <div class="project-index">B</div>
+          <div class="project-main">
+            <p class="meta">Theory · 2024–present</p>
+            <h3>Navigation with noisy sensors</h3>
+            <p>Optimal-control and graph-kernel views of neuromorphic navigation, including why Gaussian-like place fields may be useful.</p>
+            <div class="project-details" hidden>
+              <p>This work develops Laplacian formulations of Endotaxis, proves convergence properties, and compares the method with successor representations.</p>
+            </div>
+          </div>
+          <div class="tag-stack"><span>brains</span><span>optimization</span></div>
+          <button class="expand" type="button" aria-label="Show more about Navigation with noisy sensors" aria-expanded="false">+</button>
+        </article>
+
+        <article class="project" data-tags="learning markets" tabindex="0">
+          <div class="project-index">C</div>
+          <div class="project-main">
+            <p class="meta">Field work · Sri Lanka · 2025</p>
+            <h3>Teacher Copilot</h3>
+            <p>A bilingual WhatsApp tool for lesson planning—and a network-design question about where unanswered teacher queries should go.</p>
+            <div class="project-details" hidden>
+              <p>After visiting urban and rural schools, I explored graph matching and queue balancing as ways to distribute scarce expert attention more equitably.</p>
+            </div>
+          </div>
+          <div class="tag-stack"><span>education</span><span>networks</span></div>
+          <button class="expand" type="button" aria-label="Show more about Teacher Copilot" aria-expanded="false">+</button>
+        </article>
+
+        <article class="project" data-tags="learning" tabindex="0">
+          <div class="project-index">D</div>
+          <div class="project-main">
+            <p class="meta">Hardware · 2020–2022</p>
+            <h3>SENSE</h3>
+            <p>A low-cost robotic glove that teaches sign language through guided motion and personalized hand-tracking feedback.</p>
+            <div class="project-details" hidden>
+              <p>The system was granted U.S. Patent 11,919,159 and won Best in Show at Invention Convention Globals.</p>
+              <a href="https://patents.google.com/patent/US11919159B1/en" target="_blank" rel="noopener">View the patent ↗</a>
+            </div>
+          </div>
+          <div class="tag-stack"><span>education</span><span>hardware</span></div>
+          <button class="expand" type="button" aria-label="Show more about SENSE" aria-expanded="false">+</button>
+        </article>
+
+        <article class="project" data-tags="learning" tabindex="0">
+          <div class="project-index">E</div>
+          <div class="project-main">
+            <p class="meta">Curriculum · 2022–2023</p>
+            <h3>Arithmetic as programming</h3>
+            <p>A Scratch-like interface and curriculum where students learn multi-digit arithmetic by building the algorithms themselves.</p>
+            <div class="project-details" hidden>
+              <p>The material was piloted in schools in Columbus, Ohio and New Delhi, India as a creative complement to rote practice.</p>
+            </div>
+          </div>
+          <div class="tag-stack"><span>education</span><span>programming</span></div>
+          <button class="expand" type="button" aria-label="Show more about Arithmetic as programming" aria-expanded="false">+</button>
+        </article>
+
+        <article class="project" data-tags="brains" tabindex="0">
+          <div class="project-index">F</div>
+          <div class="project-main">
+            <p class="meta">Research · 2025–present</p>
+            <h3>Syntax as neural geometry</h3>
+            <p>Algebraic models connecting symbolic syntax, entropy, and population-level neural dynamics.</p>
+            <div class="project-details" hidden>
+              <p>The current direction connects syntactic derivation to hippocampal search using local Rényi-2 entropy gradients as a distance between syntactic objects.</p>
+            </div>
+          </div>
+          <div class="tag-stack"><span>brains</span><span>language</span></div>
+          <button class="expand" type="button" aria-label="Show more about Syntax as neural geometry" aria-expanded="false">+</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section notes-section" id="notes" aria-labelledby="notes-title">
+      <div class="section-heading">
+        <p class="section-number">02</p>
+        <div>
+          <h2 id="notes-title">Questions in the margin</h2>
+        </div>
+      </div>
+      <div class="note-browser">
+        <div class="graph-panel">
+          <div class="graph-heading">
+            <div>
+              <p class="note-type">Public note map</p>
+              <p>Each dot is a note. Lines are Obsidian links.</p>
+            </div>
+            <span id="graph-count">5 notes</span>
+          </div>
+          <canvas id="note-graph" aria-label="Interactive map of published notes"></canvas>
+          <div class="note-list" id="note-list" role="list" aria-label="Published notes"></div>
+        </div>
+        <aside class="note-view" id="note-view" aria-live="polite">
+          <p class="note-type">Question · brains + markets</p>
+          <h3>What is one more observation worth?</h3>
+          <p>An animal can look again, a model can request more context, and a teacher can ask an expert. In each case, information has a cost. I’m interested in when the next observation changes the decision enough to be worth paying for.</p>
+          <div class="note-route"><span>came from</span> zebrafish hunting <span>leads toward</span> expert attention</div>
+        </aside>
+      </div>
+      <p class="obsidian-note"><span aria-hidden="true">◌</span> The map reads the same notes and <code>[[wikilinks]]</code> exported from a public Obsidian folder. As that folder grows, this map grows with it.</p>
+    </section>
+
+    <section class="section papers-section" id="papers" aria-labelledby="papers-title">
+      <div class="section-heading">
+        <p class="section-number">03</p>
+        <div>
+          <h2 id="papers-title">Papers & manuscripts</h2>
+        </div>
+      </div>
+      <ol class="paper-list">
+        <li>
+          <span class="paper-year">2025</span>
+          <a href="https://arxiv.org/abs/2510.03699" target="_blank" rel="noopener">Dissecting Larval Zebrafish Hunting using Deep Reinforcement Learning Trained RNN Agents</a>
+          <span class="paper-status">NeurIPS AI4Science · spotlight</span>
+        </li>
+        <li>
+          <span class="paper-year">2025</span>
+          <span>Theoretical Limits of Noisy Neuromorphic Navigation</span>
+          <span class="paper-status">manuscript in revision</span>
+        </li>
+        <li>
+          <span class="paper-year">2025</span>
+          <span>A Heat-Equation Inspired Neuromorphic Algorithm for Graph Navigation</span>
+          <span class="paper-status">manuscript in revision</span>
+        </li>
+        <li>
+          <span class="paper-year">2024</span>
+          <a href="https://openreview.net/pdf?id=JrA95mt3gG" target="_blank" rel="noopener">Investigating Goal-Aligned and Empathetic Social Reasoning Strategies for Human-Like Social Intelligence in LLMs</a>
+          <span class="paper-status">NeurIPS SRLM workshop</span>
+        </li>
+      </ol>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div>
+        <p class="section-number">04</p>
+        <h2 id="about-title">A short version</h2>
+      </div>
+      <div class="about-copy">
+        <p>I study computer science and economics at Caltech and will join Stanford’s Computational and Mathematical Engineering PhD program in Fall 2027. Before Caltech, I studied at Yale.</p>
+        <p>I’ve worked in labs spanning neurotheory, neural circuits, cognition, machine learning, and language. Away from those, I play flute in orchestra and chamber groups.</p>
+        <div class="contact-links">
+          <a href="mailto:rmalik@caltech.edu">Email</a>
+          <a href="https://github.com/RaaghavM" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/raaghav-malik-769191187" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built as a place for work in progress.</p>
+    <button id="footer-wander" type="button">Take me somewhere on this page <span aria-hidden="true">↝</span></button>
+    <p>Last shaped in 2026.</p>
+  </footer>
+</body>
+</html>
