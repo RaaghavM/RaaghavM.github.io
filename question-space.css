@@ -126,6 +126,10 @@
   font-size: .7rem;
 }
 
+@media (min-width: 901px) {
+  .question-result { contain: size; }
+}
+
 @media (max-width: 900px) {
   .question-space { grid-template-columns: 1fr; }
   .question-triangle-panel { border-right: 0; border-bottom: 1px solid var(--ink); }
