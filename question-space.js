@@ -143,7 +143,7 @@
     if (question.id !== currentQuestionId) {
       currentQuestionId = question.id;
       questionText.textContent = question.question;
-      regionText.textContent = regionLabel(question);
+      if (regionText) regionText.textContent = regionLabel(question);
       if (announce) scheduleAnnouncement(question);
     }
     drawTriangle();
