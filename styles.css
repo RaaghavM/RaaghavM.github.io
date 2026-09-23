@@ -148,6 +148,8 @@ h1 { margin: 0 0 1.35rem; font-family: var(--serif); font-size: clamp(2.8rem, 5.
 .project-media { width: min(430px, 100%); margin: 1.35rem 0 0; }
 .project-media img { display: block; width: 100%; height: auto; border: 1px solid var(--ink); background: white; }
 .project-media figcaption { margin-top: .55rem; color: var(--muted); font-family: var(--mono); font-size: .68rem; }
+.synapse-media { max-width: 1000px; margin-top: 1.4rem; display: grid; gap: 1.2rem; }
+.synapse-media .project-media { width: 100%; margin: 0; }
 .project-visuals { margin-top: 1.6rem; display: grid; gap: 2.4rem; }
 .sense-media { max-width: 900px; margin-top: 1.4rem; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
 .sense-media figure, .sense-video { margin: 0; border: 1px solid var(--ink); background: white; overflow: hidden; }
